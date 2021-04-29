@@ -1,0 +1,4 @@
+packages: hs.cabal
+jobs: $ncpus
+package hs
+  ghc-options: -Werror -O0
